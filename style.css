@@ -1,0 +1,431 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+/*======SMARTPHONE=========*/
+
+@media only screen and (min-width: 320px) {
+    body {
+      background-color: whitesmoke;
+      width: 375px;
+      Height: 933px;
+    }
+    /*=======Encabezado========*/
+    .encabezado{
+        width: 100%;
+        height: 96px;
+        background-color: whitesmoke;
+        padding: 0;
+    }
+
+    .logo{    
+        width: auto;  
+        height: 48px;
+        margin-top: 21px;
+    }
+
+    /*=======Main========*/
+
+    .principal{
+        width: 343px;
+        height: auto;
+        background-color: whitesmoke;
+        margin: 0 16px;
+    }
+
+    /*Cuadro de texto*/
+
+    .cuadro-texto{
+        width: 343px;;
+        height: 48px;
+        margin: 56px 0 77px 0;
+        padding: 0;
+        color: darkblue;
+        font-size: 24px;
+        text-align: left;
+        border: none;
+        background-color: whitesmoke;
+    }
+
+
+    /*contenido-aviso*/
+
+    .contenido-aviso{
+        width: 229px;
+        height: 18px;
+        display: flex;
+        margin-top: 251px;
+        margin-left: 0;
+    }
+
+    .exclamacion, .aviso{
+        display: inline;
+    }
+
+    .exclamacion{
+        width: 16px;
+        height: 16px;
+    }
+    .aviso{
+        width:205px;
+        height: 18px;        
+        margin-left: 8px;
+        text-align: left;
+        color: gray;
+        font-size: 12px;
+        justify-content: center;
+    }
+
+    /*botones*/
+
+    .botones{
+        width: 343px;
+        height: 158px;
+        margin: 16px 0;
+    }
+    .encriptar{
+        width: 100%;
+        display: block;
+        height: 67px;
+        border-radius: 24px;
+        margin-bottom: 24px;
+        background-color: darkblue;
+        color: white;
+        border: 1px solid darkblue;
+    }
+    .desencriptar{
+        width: 100%;
+        display: block;
+        height: 67px;
+        border-radius: 24px;
+        margin-bottom: 8px;
+        background-color: white;
+        color: darkblue;
+        border: 1px solid darkblue;
+    }
+
+    /*Cuadro de mensaje*/
+
+    .cuadro-mensaje{
+        width: 327px;
+        height: 186px;
+        margin: 16px auto 16px auto;
+        border-radius: 32px;
+        background-color: whitesmoke;
+        align-content: center;
+        box-shadow: 1px 2px gray;
+    }
+    .mensaje-1, .mensaje-2, .muñeco{
+        display: block;
+        text-align: center;
+        
+    }
+    .muñeco{
+        width: 0px;
+        height: 0px;
+    }
+
+    .mensaje-1{
+        font-size: 24px;
+        font-weight: bold;
+        padding: 32px 32px 0 32px;
+    }
+    .mensaje-2{
+        font-size: 16px;
+        align-self: center;
+        padding: 0 32px 32px 32px;
+    }
+
+  }
+
+/*==========FIN SMARTPHONE===========*/
+
+
+/*======TABLET=========*/
+
+@media only screen and (min-width: 376px) {
+    body {
+      background-color: whitesmoke;
+      width: 768px;
+      Height: 1174px;
+    }
+    /*=======Encabezado========*/
+    .encabezado{
+        width: 100%;
+        height: 150px;
+        background-color: whitesmoke;
+        
+    }
+
+    .logo{    
+        width: auto;  
+        height: 50.58px;
+        margin-top: 73.42px;
+    }
+
+    /*=======Main========*/
+
+    .principal{
+        width: 688px;
+        height: 1094;
+        background-color: whitesmoke;
+        margin: 40px;
+    }
+
+    /*Cuadro de texto*/
+
+    .cuadro-texto{
+        width: 668px;
+        height: 48px;
+        margin: 50.24px 0 0 0;
+        padding: 0;
+        color: darkblue;
+        font-size: 24px;
+        text-align: left;
+        border: none;
+    }
+
+
+    /*contenido-aviso*/
+
+    .contenido-aviso{
+        width: 229px;
+        height: 18px;
+        display: flex;
+        margin-top: 550px;
+        margin-left: 0;
+    }
+
+    .exclamacion, .aviso{
+        display: inline;
+    }
+
+    .exclamacion{
+        width: 16px;
+        height: 16px;
+    }
+    .aviso{
+        width:205px;
+        height: 18px;        
+        margin-left: 8px;
+        text-align: left;
+        color: gray;
+        font-size: 12px;
+        justify-content: center;
+    }
+
+    /*botones*/
+
+    .botones{
+        width: 688px;
+        height: 67px;
+        margin: 16px 0 64px 0;
+        display: flex;
+    }
+    .encriptar{
+        width: 332px;
+        display: inline;
+        height: 67px;
+        border-radius: 24px;
+        background-color: darkblue;
+        color: white;
+        border: 1px solid darkblue;
+    }
+    .desencriptar{
+        width: 332px;
+        display: inline;
+        height: 67px;
+        border-radius: 24px;
+        background-color: white;
+        color: darkblue;
+        border: 1px solid darkblue;
+        margin-left: auto;
+        margin-right: 0;
+    }
+
+    /*Cuadro de mensaje*/
+
+    .cuadro-mensaje{
+        width: 688px;
+        height: 133px;
+        margin: 0 auto 0 40px;
+        border-radius: 32px;
+        background-color: white;
+        align-content: center;
+    }
+    .mensaje-1, .mensaje-2{
+        width: 624;
+        display: block;
+        text-align: center;
+        margin:0;
+        
+    }
+    .mensaje-1{
+        height: 29px;
+        font-size: 24px;
+        font-weight: bold;
+        padding: 32px 32px 16px 32px;
+        
+    }
+    .mensaje-2{
+        height: 24px;
+        font-size: 16px;
+        align-self: center;
+        padding: 0 32px 32px 32px;
+    }
+
+}
+
+
+/*==========FIN TABLET============*/
+
+/*==========INICIO LAPTOP============*/
+
+@media only screen and (min-width: 769px) {
+    body {
+      background-color: whitesmoke;
+      width: 1440px;
+      height: 1024px;
+      display: flex;
+      padding: 40px;
+    }
+
+
+    /*=======Main========*/
+
+    .principal{
+        width: 920px;
+        height: 944px;
+        background-color: whitesmoke;
+        margin:0;
+    }
+
+
+    /*Encabezado*/
+    .encabezado{
+        width: 100%;
+        height: 150px;
+        background-color: whitesmoke;
+        margin: 0;
+        
+    }
+    
+    .logo{    
+        width: auto;  
+        height: 50.58px;
+        margin: 0 0 0 0;
+    }
+
+
+    /*Cuadro de texto*/
+
+    .cuadro-texto{
+        width: 557px;
+        height: 48px;
+        margin: 50.24px 0 0 240px;
+        background-color: whitesmoke;
+        color: darkblue;
+        font-size: 24px;
+        text-align: left;
+        border: none;
+        
+    }
+
+
+    /*contenido-aviso*/
+
+    .contenido-aviso{
+        width: 100%;
+        height: 18px;
+        display: flex;
+        margin-top: 550px;
+        margin-left: 0;
+    }
+
+
+
+    .exclamacion{
+        width: 16px;
+        height: 16px;
+        margin-left: 240px;
+    }
+    .aviso{
+        width:auto;
+        height: 18px;        
+        margin-left: 8px;
+        color: gray;
+        font-size: 12px;
+    }
+
+    /*botones*/
+
+    .botones{
+        width: 688px;
+        height: 67px;
+        margin: 16px 0 0 240px;
+        display: flex;
+    }
+    .encriptar{
+        width: 328px;
+        display: inline;
+        height: 67px;
+        border-radius: 24px;
+        background-color: darkblue;
+        color: white;
+        border: 1px solid darkblue;
+    }
+    .desencriptar{
+        width: 328px;
+        display: inline;
+        height: 67px;
+        border-radius: 24px;
+        background-color: white;
+        color: darkblue;
+        border: 1px solid darkblue;
+        margin-left: 16px;
+        margin-right: 0;
+    }
+
+    /*Cuadro de mensaje*/
+
+    .cuadro-mensaje{
+        float: right;
+        width: 400px;
+        height: 944px;
+        margin-left: 40px;
+        border-radius: 32px;
+        background-color: whitesmoke;
+    }
+
+    .muñeco{
+        width: 336px;
+        height: 304px;
+        margin-top: 243px;
+    }
+
+    .mensaje-1, .mensaje-2{
+        width: 624;
+        display: block;
+        text-align: center;
+        margin:0;
+        
+    }
+    .mensaje-1{
+        height: 29px;
+        font-size: 24px;
+        font-weight: bold;
+        padding: 32px 32px 16px 32px;
+        
+    }
+    .mensaje-2{
+        height: 24px;
+        font-size: 16px;
+        align-self: center;
+        padding: 0 32px 32px 32px;
+    }
+
+}
+
+
+/*==========FIN TABLET============*/

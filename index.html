@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>infografico-encriptador</title>
+    <link rel="stylesheet" href="/style.css">
+
+</head>
+<body>
+    
+    <main class="principal">
+        <header class="encabezado">
+            <img class="logo" src="/Logo-1.png">
+        </header>
+
+        <textarea class="cuadro-texto" id="texto" name="texto">Ingrese el texto aquí.</textarea>        
+    
+
+        <section class="contenido-aviso">
+            <img class="exclamacion" src="/bi_exclamation-circle-fill-1.png"><p class="aviso"> Solo letras munúsculas y sin acentos</p>
+        </section>
+        
+        <section class="botones">
+            <input class="encriptar" type="button" value="Encriptar" id="btn-encriptar">
+            <input class="desencriptar" type="button" value="Desencriptar" id="btn-desencriptar">
+        </section>
+
+
+    </main>
+
+    <section class="cuadro-mensaje" >
+        <img class="muñeco"src="/Muñeco.png" alt="Muñeco">
+        <input class="mensaje-1" type="text" id="msg" placeholder="Ningún mensaje fue encontrado">
+        <p class="mensaje-2">Ingresa el texto que desees encriptar o desencriptar.</p>
+    </section>
+
+    <script src="/app.js"></script>
+    
+</body>
+</html>
